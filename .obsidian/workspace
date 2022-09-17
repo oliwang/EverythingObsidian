@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "dda975bde190d813",
+    "type": "split",
+    "children": [
+      {
+        "id": "d71af971b724ffe0",
+        "type": "split",
+        "children": [
+          {
+            "id": "ce837f2d91ffed5b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf-annotator",
+              "state": {
+                "file": "Examples/Plugins/Annotator/Annotator PDF.md"
+              }
+            }
+          },
+          {
+            "id": "42c1ba7dbb4efd64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tutorials/Plugin Annotator Making Annotations on PDFs.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5caf34fd81770d57",
+    "type": "split",
+    "children": [
+      {
+        "id": "6eb73237b03ac531",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02313a09f748a85a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9db242a111fd689b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ce7aaf032281467a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 240.5
+  },
+  "right": {
+    "id": "c3fa7e099fdb9fad",
+    "type": "split",
+    "children": [
+      {
+        "id": "6bbf15159e77fa3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d577b8913faae2e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tutorials/Plugin Annotator Making Annotations on PDFs.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9761b48ed65feea1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tutorials/Plugin Annotator Making Annotations on PDFs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "592ce8ba37472212",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9e66361f63e6533d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tutorials/Plugin Annotator Making Annotations on PDFs.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "42c1ba7dbb4efd64",
+  "lastOpenFiles": [
+    "Examples/Plugins/Annotator/Annotator PDF.md",
+    "Tutorials/Plugin Annotator Making Annotations on PDFs.md"
+  ]
+}
