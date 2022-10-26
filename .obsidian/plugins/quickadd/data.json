@@ -1,0 +1,40 @@
+{
+  "choices": [
+    {
+      "id": "0d1de821-b97e-4667-ad92-6c08e4b77f1e",
+      "name": "Capture - New Task",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "```js quickadd\n// getting user input\nvar task_title = await this.quickAddApi.inputPrompt(\"Task Info\");\nif (task_title == \"\" || task_title == undefined) {\n\talert(\"Your task must have a title\");\n\treturn \"\";\n}\nvar due_date = await this.quickAddApi.inputPrompt(\"Due Date(YYYY-MM-DD)\");\nvar tags = await this.quickAddApi.inputPrompt(\"Tags, use '#', seperate with space\");\nvar duration = await this.quickAddApi.inputPrompt(\"Duration (minute)\");\nvar list = await this.quickAddApi.suggester(\n\t[\"Inbox\", \"🗂AddToNote\", \"💻Create\"],\n\t[\"Inbox\", \"🗂AddToNote\", \"💻Create\"]\n);\n\n// handle optional input and encode special characters in string\ntags = tags ? tags : \"\";\nduration = duration ? duration : \"\";\ndue_date = due_date ? due_date : \"\";\n\nvar date_in_task = ` 📅 ${due_date}`;\n\nvar task_title_encoded = encodeURIComponent(task_title);\nvar tags_encoded = tags.replaceAll(\"#\", \"\").replaceAll(\" \", \",\");\nvar list_encoded = list.replaceAll(\" \", \"%20\");\n\n\nvar list_in_link = \"\";\nif (list != \"Inbox\") {\n\tlist_in_link = `&list=${list_encoded}`;\n}\n\n\nvar due_date_in_link = \"\";\nif (due_date) {\n\tdue_date_in_link = `&date=${due_date}`;\n}\n\n\nvar tags_in_link = \"\";\nif (tags_encoded) {\n\ttags_in_link = `&tags=${tags_encoded}`;\n}\nvar duration_in_link = \"\";\nif (duration) {\n\tduration_in_link = `&duration=${duration}`;\n}\n\n// format the output string\nvar result = `${task_title} ${tags} ${list} [📥](sorted://x-callback-url/add?title=${task_title_encoded}${list_in_link}${due_date_in_link}${tags_in_link}${duration_in_link}) ${date_in_task}`\n\nreturn result;\n\n```"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line"
+}

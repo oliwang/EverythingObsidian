@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "dda975bde190d813",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e9a2228a52548e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "423b5b293a0b1bdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "QuickAdd Examples.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5caf34fd81770d57",
+    "type": "split",
+    "children": [
+      {
+        "id": "6eb73237b03ac531",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02313a09f748a85a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9db242a111fd689b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tasks",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ce7aaf032281467a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 448.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "c3fa7e099fdb9fad",
+    "type": "split",
+    "children": [
+      {
+        "id": "6bbf15159e77fa3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0d577b8913faae2e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "QuickAdd Examples.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9761b48ed65feea1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "QuickAdd Examples.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "592ce8ba37472212",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9e66361f63e6533d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "QuickAdd Examples.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "02313a09f748a85a",
+  "lastOpenFiles": [
+    "HiddenNotes/README.md",
+    "HiddenNotes/Daily Notes/2022-09-18.md",
+    "HiddenNotes/Tutorials/Markdown.md",
+    "HiddenNotes/Tutorials/Plugin Annotator Making Annotations on PDFs.md",
+    "HiddenNotes/Examples/Plugins/Annotator/Law.md",
+    "HiddenNotes/Examples/Plugins/Annotator/Annotator PDF.md",
+    "HiddenNotes/Examples/Plugins/Annotator/LAWS6022 PPT Week 2 (1)(1).pdf",
+    "HiddenNotes/Examples/Plugins/Annotator/Presentation Zen 3  simple ideas on presentation design and delivery (Garr Reynolds Guy Kawasaki) (z-lib.org).pdf",
+    "HiddenNotes/Tutorials/style1.jpeg",
+    "HiddenNotes/Tutorials/2022-09-19.md"
+  ]
+}
