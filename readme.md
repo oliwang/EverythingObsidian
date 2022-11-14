@@ -3,5 +3,5 @@ This a repo where I share how I use and customize Obsidian. You can clone the re
 
 ## Articles
 
-- [How to add tasks to Sorted³ from Obsidian with QuickAdd plugin](./Notes/Articles/How to add tasks to Sorted³ from Obsidian with QuickAdd plugin) 
+- [[How to add tasks to Sorted³ from Obsidian with QuickAdd plugin]]
 
