@@ -8,12 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "423b5b293a0b1bdc",
+            "id": "8662d093041c5a4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QuickAdd Examples.md",
+                "file": "readme.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "300334684d44f87f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Articles/How to add tasks to Sorted³ from Obsidian with QuickAdd plugin.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 448.5,
-    "collapsed": true
+    "width": 448.5
   },
   "right": {
     "id": "c3fa7e099fdb9fad",
@@ -87,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "QuickAdd Examples.md",
+                "file": "readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "QuickAdd Examples.md",
+                "file": "readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QuickAdd Examples.md"
+                "file": "readme.md"
               }
             }
           }
@@ -138,20 +150,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "02313a09f748a85a",
+  "active": "8662d093041c5a4a",
   "lastOpenFiles": [
+    "Notes/Articles/How to add tasks to Sorted³ from Obsidian with QuickAdd plugin.md",
+    "readme.md",
+    "QuickAdd Examples.md",
     "HiddenNotes/README.md",
     "HiddenNotes/Daily Notes/2022-09-18.md",
     "HiddenNotes/Tutorials/Markdown.md",
     "HiddenNotes/Tutorials/Plugin Annotator Making Annotations on PDFs.md",
     "HiddenNotes/Examples/Plugins/Annotator/Law.md",
     "HiddenNotes/Examples/Plugins/Annotator/Annotator PDF.md",
-    "HiddenNotes/Examples/Plugins/Annotator/LAWS6022 PPT Week 2 (1)(1).pdf",
-    "HiddenNotes/Examples/Plugins/Annotator/Presentation Zen 3  simple ideas on presentation design and delivery (Garr Reynolds Guy Kawasaki) (z-lib.org).pdf",
-    "HiddenNotes/Tutorials/style1.jpeg",
-    "HiddenNotes/Tutorials/2022-09-19.md"
+    "HiddenNotes/Examples/Plugins/Annotator/LAWS6022 PPT Week 2 (1)(1).pdf"
   ]
 }
